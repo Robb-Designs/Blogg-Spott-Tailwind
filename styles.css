@@ -5,3 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family:  "Figtree", sans-serif;
+}
+
+#card-container{
+    padding: .8rem;
+    border: 1px solid black;
+}
+
+#learning-tag{
+    padding: .4em .8em;
+}

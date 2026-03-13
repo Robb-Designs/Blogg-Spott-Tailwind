@@ -9,23 +9,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
 
 </head>
 
 <body>
     <section>
-        <div class="section-container">
-            <div class="card-container">
-                <div class="card-image">
-                    <img class="article-img" src="./illustration-article.svg">
+        <div id="section-container" class="flex flex-col items-center justify-center h-screen">
+            <div id="card-container" class="border-2 border-dashed border-white w-64 rounded-[0.9rem] bg-white p-[0.8rem] flex flex-col gap-[0.7rem] shadow-[8px_8px_0_black]">
+                <div id="card-image">
+                    <img id="article-img" class="w-full rounded-[0.9rem]" src="./illustration-article.svg">
                 </div>
-                <div class="card-text">
-                    <p id="learding-tag">Learning</p>
-                    <p id="learning-description">Published 21 dec 2023</p>
-                    <h1>HTML & CSS foundations</h1>
-                    <p id="description-text">These languages are the backbone of every website, defining structure,
+                <div id="card-text" class="flex flex-col gap-[0.7rem]">
+                    <p id="learning-tag"  class="bg-[hsl(47,88%,63%)] w-fit  rounded-[0.3rem] text-[12px] font-extrabold">Learning</p>
+                    <p id="learning-description" class="text-[12px] font-medium">Published 21 dec 2023</p>
+                    <h1 class="text-[16px] font-extrabold">HTML & CSS foundations</h1>
+                    <p id="description-text" class="text-[12px] text-[hsl(0,0%,42%)]">These languages are the backbone of every website, defining structure,
                         content, and presentation.</p>
-                    <p id="profile-name"><span><img src="./image-avatar.webp"
+                    <p id="profile-name" class="font-extrabold text-[12px] flex items-center gap-[0.4rem]"><span><img src="./image-avatar.webp" class="w-8"
                                 alt="Profile image of Greg Hooper"></span>Greg Hooper</p>
                 </div>
             </div>
